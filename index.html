@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>FoodExpress</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <header>
+<h1>🍔 FoodExpress</h1>
+</header>
+ 
+    <section class="menu">
+        <section class="cart">
+    <h2>🛒 Cart</h2>
+    <ul id="cart-items"></ul>
+    <h3 id="total-price">Total: ₹0</h3>
+     <button onclick="clearCart()">Clear Cart</button>
+</section>
+
+<div class="card">
+<h2>Pizza</h2>
+<p>₹299</p>
+<button onclick="orderFood('Pizza',299)">Order Now</button>
+</div>
+ 
+        <div class="card">
+<h2>Burger</h2>
+<p>₹199</p>
+<button onclick="orderFood('Burger',199)">Order Now</button>
+</div>
+ 
+        <div class="card">
+<h2>Pasta</h2>
+<p>₹249</p>
+<button onclick="orderFood('Pasta',249)">Order Now</button>
+
+</div>
+ 
+         <div class="card">
+<h2>Biryani</h2>
+<p>₹249</p>
+<button onclick="orderFood('Biryani',249)">Order Now</button>
+</div>
+
+         <div class="card">
+<h2>french fries</h2>
+<p>₹150</p>
+<button onclick="orderFood('French fries,150')">Order Now</button>
+</div>
+
+          <div class="card">
+<h2>soft drinks</h2>
+<p>₹50</p>
+<button onclick="orderFood('softdrinks',50)">Order Now</button>
+</div>
+</section>
+
+ <script src="script.js"></script>
+</body>
+</html>
