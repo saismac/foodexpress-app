@@ -80,3 +80,12 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+
+.restaurant {
+    margin: 30px;
+}
+
+.restaurant h2 {
+    margin-bottom: 15px;
+    color: darkgreen;
+}
